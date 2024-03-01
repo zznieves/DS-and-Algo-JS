@@ -248,3 +248,6 @@ class DoublyLinkedList {
 
 
 }
+
+// export the Doubly Linked List to be used in other files
+module.exports = DoublyLinkedList;
