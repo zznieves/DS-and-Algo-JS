@@ -3,7 +3,7 @@
  * JavaScript file for implementing a Node Object
  */
 
-class Node {
+class SinglyNode {
 
     // constructor
     constructor(data) {
@@ -26,7 +26,7 @@ class Node {
     setNext(newNode) {
 
         // newNode must either be a Node Object or null
-        if(newNode instanceof Node || newNode === null) {
+        if(newNode instanceof SinglyNode || newNode === null) {
 
             this.next = newNode;
         }
@@ -45,4 +45,4 @@ class Node {
 }
 
 // export the Node class to be used in other files
-module.exports = Node;
+module.exports = SinglyNode;
